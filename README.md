@@ -48,6 +48,7 @@ import nltk
 nltk.download('wordnet')
 nltk.download('omw-1.4')
 
+---
 ## Usage
 Run the main script to start the Gradio app:
 python app.py
@@ -56,6 +57,7 @@ python app.py
 
 -> Use the Batch Ticket Analysis tab to upload CSV or Excel files containing multiple tickets (must include a ticket_text column) for bulk predictions.
 
+---
 ## Model Evaluation
 -> Models were trained using Logistic Regression with TF-IDF, lemmatization, ticket length, and sentiment features.
 
@@ -63,6 +65,7 @@ python app.py
 
 -> Confusion matrices and classification reports are included for both issue type and urgency level.
 
+---
 ## Insights & Challenges
 -> Feature enrichment with sentiment and lemmatization improved accuracy.
 
@@ -70,6 +73,7 @@ python app.py
 
 -> Robust error handling was implemented to manage batch input file inconsistencies.
 
+---
 ## Future Work
 -> Incorporate transformer-based embeddings for richer text representation.
 
